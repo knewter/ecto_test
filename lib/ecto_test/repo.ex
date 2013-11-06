@@ -2,7 +2,7 @@ defmodule EctoTest.Repo do
   use Ecto.Repo, adapter: Ecto.Adapters.Postgres
 
   def url do
-    "ecto://postgres:postgres@localhost/ecto_test3"
+    "ecto://postgres:postgres@localhost/ecto_test8"
   end
 
   def priv do

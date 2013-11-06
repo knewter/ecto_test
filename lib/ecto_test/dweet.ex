@@ -1,8 +1,8 @@
 defmodule EctoTest.Dweet do
   use Ecto.Model
 
-  queryable "dweet" do
-    field :content,        :string
-    field :author,         :string
+  queryable "dweets" do
+    field :content, :string
+    belongs_to :author, EctoTest.Author
   end
 end
